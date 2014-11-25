@@ -11,21 +11,21 @@
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent">
-        <de.timroes.palettedemo.SwatchView
+        <de.timroes.paletteviewer.SwatchView
             android:id="@+id/vibrant"
             app:titleText="@string/vibrant"
             app:bodyText="@string/normal_style"
             android:layout_margin="@dimen/spacing_swatches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <de.timroes.palettedemo.SwatchView
+        <de.timroes.paletteviewer.SwatchView
             android:id="@+id/vibrant_light"
             app:titleText="@string/vibrant"
             app:bodyText="@string/light_style"
             android:layout_margin="@dimen/spacing_swatches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <de.timroes.palettedemo.SwatchView
+        <de.timroes.paletteviewer.SwatchView
             android:id="@+id/vibrant_dark"
             app:titleText="@string/vibrant"
             app:bodyText="@string/dark_style"
@@ -39,21 +39,21 @@
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent">
-        <de.timroes.palettedemo.SwatchView
+        <de.timroes.paletteviewer.SwatchView
             android:id="@+id/muted"
             app:titleText="@string/muted"
             app:bodyText="@string/normal_style"
             android:layout_margin="@dimen/spacing_swatches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <de.timroes.palettedemo.SwatchView
+        <de.timroes.paletteviewer.SwatchView
             android:id="@+id/muted_light"
             app:titleText="@string/muted"
             app:bodyText="@string/light_style"
             android:layout_margin="@dimen/spacing_swatches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <de.timroes.palettedemo.SwatchView
+        <de.timroes.paletteviewer.SwatchView
             android:id="@+id/muted_dark"
             app:titleText="@string/muted"
             app:bodyText="@string/dark_style"

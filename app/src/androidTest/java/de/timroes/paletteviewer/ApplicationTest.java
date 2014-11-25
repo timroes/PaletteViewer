@@ -1,4 +1,4 @@
-package de.timroes.palettedemo;
+package de.timroes.paletteviewer;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

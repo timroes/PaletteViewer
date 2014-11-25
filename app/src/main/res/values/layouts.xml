@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="orientation_horizontal">0</integer>
+    <integer name="orientation_vertical">1</integer>
+
+    <integer name="layout_orientation">@integer/orientation_vertical</integer>
+</resources>

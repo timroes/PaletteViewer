@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PaletteDemo</string>
+    <string name="app_name">Palette Viewer</string>
     <string name="hello_world">Hello world!</string>
     <string name="click_to_choose_image">Click to choose an image</string>
     <string name="action_settings">Settings</string>
@@ -12,5 +12,8 @@
     <string name="light_style">light style</string>
     <string name="dark_style">dark style</string>
     <string name="muted">Muted</string>
+    <string name="swatch_does_not_exist">This swatch does not exist in this image.</string>
+    <string name="swatch_dialog_title">%1$s (%2$s)</string>
+    <string name="swatch_dialog">Color: #%1$X\n\nTitle color: #%2$X\n\nBody color: #%3$X\n\nPopulation: %4$d</string>
 
 </resources>

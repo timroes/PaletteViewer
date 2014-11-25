@@ -2,28 +2,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="@integer/layout_orientation"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/wrapper_layout"
     tools:context=".PaletteActivity">
 
-
     <android.support.v7.widget.CardView
+        android:foreground="?selectableItemBackground"
         android:onClick="selectImage"
         android:layout_gravity="center"
-        android:layout_width="200dp"
-        android:layout_height="100dp">
-
+        android:layout_margin="16dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/image"
+            android:visibility="gone"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
         <TextView
+            android:id="@+id/label"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/click_to_choose_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </android.support.v7.widget.CardView>
 
-    <include layout="@layout/swatches"/>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/swatches"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"/>
+    </ScrollView>
 
 </LinearLayout>
